@@ -66,6 +66,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .contact {
@@ -190,6 +191,23 @@ main a:hover {
   .layout {
     padding: 1.5rem 1.25rem 2rem;
     gap: 3rem;
+  }
+
+  .topbar {
+    gap: 0.5rem;
+  }
+
+  .brand-wrap {
+    gap: 0.5rem;
+  }
+
+  .brand, .contact {
+    font-size: 13px;
+    letter-spacing: 0.05em;
+  }
+
+  .mark-image {
+    height: 22px;
   }
 
   .hero {
