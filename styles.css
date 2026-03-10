@@ -84,6 +84,17 @@ main {
   text-align: center;
 }
 
+main a {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+  transition: color 160ms ease;
+}
+
+main a:hover {
+  color: var(--silverware);
+}
+
 .hero p {
   margin: 0 auto 1.5rem;
   font-size: clamp(1.4rem, 3vw, 2.2rem);
@@ -94,12 +105,6 @@ main {
 
 .hero p:last-child {
   margin-bottom: 0;
-}
-
-.hero a {
-  color: var(--silverware);
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
 }
 
 .content-section {
@@ -158,13 +163,24 @@ main {
 
 @media (max-width: 760px) {
   .layout {
-    padding: 1.35rem 1.1rem 1.25rem;
+    padding: 1.5rem 1.25rem 1.5rem;
     gap: 2rem;
   }
 
   .topbar {
-    align-items: flex-start;
-    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .brand-wrap {
+    gap: 0.75rem;
+  }
+
+  .brand, .contact {
+    font-size: 15px;
+  }
+
+  .mark-image {
+    height: 24px;
   }
 
   .hero p {
