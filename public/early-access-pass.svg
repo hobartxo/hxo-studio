@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00338d" />
+      <stop offset="100%" stop-color="#002244" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Wrapper (Invisible for standard web, but good to have) -->
+  <rect width="800" height="400" fill="#ffffff" />
+  
+  <!-- Main Background -->
+  <rect width="800" height="400" rx="20" fill="url(#bg-grad)" />
+  
+  <!-- Inner Border for Ticket Look -->
+  <rect x="20" y="20" width="760" height="360" rx="10" fill="none" stroke="#b7b7bf" stroke-width="2" stroke-dasharray="8 8" opacity="0.6" />
+  
+  <!-- Decorative Cutouts (matching the outer white) -->
+  <circle cx="0" cy="200" r="35" fill="#ffffff" />
+  <circle cx="800" cy="200" r="35" fill="#ffffff" />
+  
+  <!-- Perforation line next to cutouts -->
+  <line x1="600" y1="20" x2="600" y2="380" stroke="#b7b7bf" stroke-width="2" stroke-dasharray="6 6" opacity="0.4" />
+  
+  <!-- Text Elements -->
+  <text x="60" y="80" font-family="'Helvetica Neue', Helvetica, sans-serif" font-weight="bold" font-size="20" fill="#b7b7bf" letter-spacing="4">HXO STUDIO</text>
+  
+  <text x="60" y="170" font-family="'Helvetica Neue', Helvetica, sans-serif" font-weight="900" font-size="58" fill="#ffffff">AGENT FINOPS</text>
+  <text x="60" y="230" font-family="'Courier New', Courier, monospace" font-size="28" fill="#b7b7bf" letter-spacing="2">EARLY ACCESS PASS</text>
+  
+  <!-- Badge/Status -->
+  <rect x="60" y="310" width="120" height="30" rx="4" fill="#00338d" stroke="#ffffff" stroke-width="1" />
+  <text x="75" y="331" font-family="'Helvetica Neue', Helvetica, sans-serif" font-weight="bold" font-size="14" fill="#ffffff" letter-spacing="1">PRE-ORDER</text>
+  
+  <text x="210" y="331" font-family="'Courier New', Courier, monospace" font-size="14" fill="#b7b7bf">ISSUED: MAR 2026 // ZERO-TO-ONE</text>
+  
+  <!-- Right Side (Stub) -->
+  <text x="635" y="110" font-family="'Helvetica Neue', Helvetica, sans-serif" font-weight="bold" font-size="24" fill="#ffffff" transform="rotate(90 635,110)" letter-spacing="6">NO. 001</text>
+  
+  <!-- Barcode imitation on the stub -->
+  <g transform="translate(680, 50)">
+    <rect x="0" y="0" width="6" height="300" fill="#ffffff" opacity="0.8" />
+    <rect x="10" y="0" width="12" height="300" fill="#ffffff" opacity="0.8" />
+    <rect x="26" y="0" width="4" height="300" fill="#ffffff" opacity="0.8" />
+    <rect x="34" y="0" width="16" height="300" fill="#ffffff" opacity="0.8" />
+    <rect x="54" y="0" width="6" height="300" fill="#ffffff" opacity="0.8" />
+    <rect x="64" y="0" width="20" height="300" fill="#ffffff" opacity="0.8" />
+    <rect x="88" y="0" width="8" height="300" fill="#ffffff" opacity="0.8" />
+  </g>
+</svg>
