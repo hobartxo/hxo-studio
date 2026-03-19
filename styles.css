@@ -247,7 +247,7 @@ main a:hover {
   }
 }
 
-main a.project-card {
+main .project-card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 12px;
@@ -257,9 +257,10 @@ main a.project-card {
   transition: all 0.2s ease;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
-main a.project-card:hover {
+main .project-card:hover {
   border-color: var(--royal);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(0, 51, 141, 0.15);
@@ -281,7 +282,7 @@ main a.project-card:hover {
   transition: transform 0.3s ease;
 }
 
-main a.project-card:hover .card-image-wrap img {
+main .project-card:hover .card-image-wrap img {
   transform: scale(1.03);
 }
 
@@ -319,8 +320,28 @@ main a.project-card:hover .card-image-wrap img {
   transition: all 0.2s ease;
 }
 
-main a.project-card:hover .pill-cta {
+main .project-card:hover .pill-cta {
   background: #00338d; /* royal blue */
   border-color: #00338d;
+  color: var(--white);
+}
+
+.card-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.demo-link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--silverware);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  transition: color 160ms ease;
+}
+
+.demo-link:hover {
   color: var(--white);
 }
