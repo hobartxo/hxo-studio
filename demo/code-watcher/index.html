@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Watcher Demo — HXO Studio</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
+    <div class="layout">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <a href="/" class="brand-wrap" style="text-decoration:none; color:inherit;">
+            <img src="/hobart-white.png" alt="Hobart Mark" class="mark-image" />
+            <div class="brand">HXO STUDIO</div>
+          </a>
+        </div>
+        <a class="contact" href="mailto:hobart@hxostudio.com">CONTACT US</a>
+      </header>
+
+      <main style="display:flex; align-items:center; justify-content:center; min-height: calc(100vh - 180px);">
+        <section class="content-section" style="margin-top: 0; width: 100%; max-width: 980px;">
+          <h2>DEMO / CODE WATCHER</h2>
+          <p>
+            Code Watcher spawns coding agents inside <strong>tmux</strong> and opens a live <strong>Warp</strong> viewer so you can watch them build.
+          </p>
+
+          <div class="projects-grid" style="grid-template-columns: 1fr;">
+            <div class="project-card" style="max-width: 980px;">
+              <div class="card-image-wrap" style="padding: 16px;">
+                <video
+                  controls
+                  playsinline
+                  preload="metadata"
+                  style="width: 100%; border-radius: 18px; display:block; background: rgba(0,0,0,0.25);"
+                  poster="/code-watcher.png"
+                  src="https://storage.googleapis.com/hxo-studio-public/assets/code-watcher-snake-game-demo.mov"
+                ></video>
+              </div>
+              <div class="card-content">
+                <h3>Watch the agent build + run Snake live in Warp</h3>
+                <p>
+                  This is the point: you’re not waiting for a completion message — you’re watching the session in real time.
+                </p>
+                <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top: 10px;">
+                  <a class="pill-cta" href="https://www.shopclawmart.com" target="_blank" rel="noreferrer" style="text-decoration:none;">Get Code Watcher</a>
+                  <a class="pill-cta" href="https://github.com/hobartxo/code-watcher" target="_blank" rel="noreferrer" style="text-decoration:none;">View on GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p style="opacity: 0.9; margin-top: 18px;">
+            Requirements: macOS • OpenClaw • tmux • Warp. Install time: ~2 minutes.
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer-links" aria-label="Social and contact links">
+        <a href="https://twitter.com/hobartxo" target="_blank" rel="noreferrer" aria-label="Twitter" class="icon-link">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2H21l-6.542 7.478L22 22h-5.828l-4.562-5.968L6.39 22H3.633l6.998-8L2 2h5.976l4.124 5.446L18.244 2zm-1.02 18h1.613L7.095 3.895H5.365L17.224 20z"/></svg>
+        </a>
+        <a href="https://clawmart.com" target="_blank" rel="noreferrer" aria-label="ClawMart" class="icon-link">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18l-1.8 10.2a2 2 0 0 1-2 1.8H6.8a2 2 0 0 1-2-1.8L3 6.5zm4 3v6h2v-6H7zm4 0v6h2v-6h-2zm4 0v6h2v-6h-2zM8 3h8v2H8V3z"/></svg>
+        </a>
+        <a href="mailto:hobart@hxostudio.com" aria-label="Mail" class="icon-link">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7L4 7v10h16V7l-8 5z"/></svg>
+        </a>
+      </footer>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
