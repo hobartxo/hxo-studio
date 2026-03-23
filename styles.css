@@ -76,6 +76,11 @@ body {
   transition: border-color 160ms ease;
 }
 
+.brand-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .contact:hover,
 .contact:focus-visible {
   border-color: var(--royal);
@@ -161,6 +166,13 @@ main a:hover {
   justify-content: center;
   gap: 1.5rem;
   padding-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-back-link {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
 .icon-link {
@@ -344,4 +356,166 @@ main .project-card:hover .pill-cta {
 
 .demo-link:hover {
   color: var(--white);
+}
+
+.demo-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 180px);
+}
+
+.tokenops-main {
+  max-width: 1320px;
+}
+
+.tokenops-shell {
+  margin-top: 0;
+  width: 100%;
+  max-width: 1320px;
+  padding: 2rem;
+}
+
+.tokenops-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.6fr) minmax(0, 1.4fr);
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.tokenops-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.tokenops-copy h1 {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(2.2rem, 5vw, 4.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.tokenops-lede,
+.tokenops-body {
+  margin: 1.25rem 0 0;
+  font-size: 1.1rem;
+  color: var(--white);
+  max-width: 40ch;
+}
+
+.tokenops-subheadline {
+  margin: 1rem 0 0;
+  color: var(--white);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.tokenops-body {
+  color: var(--silverware);
+}
+
+.tokenops-cta-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.75rem;
+}
+
+.tokenops-detail-card {
+  cursor: default;
+}
+
+main .tokenops-detail-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.tokenops-image-column {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tokenops-proof-stat {
+  margin: 0.75rem 0 0;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--silverware);
+  text-align: center;
+}
+
+.tokenops-stat-before {
+  color: #ff4444;
+}
+
+.tokenops-stat-after {
+  color: #22cc66;
+}
+
+.tokenops-proof {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: none;
+  margin: 0;
+  border-radius: 18px;
+  border: 1px solid rgba(183, 183, 191, 0.12);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 51, 141, 0.15);
+  object-fit: contain;
+}
+
+.tokenops-detail-grid {
+  margin-top: 1.5rem;
+}
+
+.tokenops-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--silverware);
+}
+
+.tokenops-list li + li {
+  margin-top: 0.75rem;
+}
+
+.tokenops-price {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1;
+  font-weight: 600;
+  color: var(--white);
+}
+
+
+@media (max-width: 900px) {
+  .tokenops-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tokenops-copy h1 {
+    font-size: clamp(2rem, 11vw, 3.2rem);
+  }
+}
+
+@media (max-width: 760px) {
+  .demo-main {
+    min-height: auto;
+  }
+
+  .tokenops-shell {
+    padding: 2rem 1.5rem;
+  }
+
+  .tokenops-lede,
+  .tokenops-body {
+    font-size: 1rem;
+    max-width: 100%;
+  }
 }

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#002244" />
+  <g transform="translate(60, 45)">
+    <defs>
+      <filter id="drop-shadow" x="-5%" y="-5%" width="120%" height="120%">
+        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.4"/>
+      </filter>
+    </defs>
+    <rect width="680" height="360" rx="12" fill="#ffffff" filter="url(#drop-shadow)" />
+
+    <g transform="translate(35, 35)">
+      <text x="0" y="15" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#5f6368" letter-spacing="0.5" text-transform="uppercase">GCP BILLING / TOKEN USAGE</text>
+
+      <text x="0" y="70" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="54" font-weight="500" fill="#202124">$14.20 <tspan font-size="24" font-weight="400" fill="#5f6368">/ day</tspan></text>
+
+      <g transform="translate(0, 85)">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e8e3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+        <text x="32" y="18" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#1e8e3e">Down 78% since optimization</text>
+      </g>
+
+      <text x="0" y="135" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#5f6368">Mar 8 &#x2013; Mar 14, 2026</text>
+
+      <g transform="translate(0, 155)">
+        <path d="M0,0 L0,120 L610,120" fill="none" stroke="#e8eaed" stroke-width="2"/>
+
+        <rect x="30" y="12" width="50" height="108" fill="#ea4335" rx="4"/>
+        <rect x="30" y="108" width="50" height="12" fill="#ea4335" />
+        <text x="55" y="140" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#5f6368" text-anchor="middle">Mar 8</text>
+
+        <rect x="110" y="24" width="50" height="96" fill="#ea4335" rx="4"/>
+        <rect x="110" y="108" width="50" height="12" fill="#ea4335" />
+        <text x="135" y="140" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#5f6368" text-anchor="middle">Mar 9</text>
+
+        <rect x="190" y="84" width="50" height="36" fill="#1e8e3e" rx="4"/>
+        <rect x="190" y="108" width="50" height="12" fill="#1e8e3e" />
+        <text x="215" y="140" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#5f6368" text-anchor="middle">Mar 10</text>
+
+        <rect x="270" y="96" width="50" height="24" fill="#1e8e3e" rx="4"/>
+        <rect x="270" y="108" width="50" height="12" fill="#1e8e3e" />
+        <text x="295" y="140" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#5f6368" text-anchor="middle">Mar 11</text>
+
+        <rect x="350" y="102" width="50" height="18" fill="#1e8e3e" rx="4"/>
+        <rect x="350" y="108" width="50" height="12" fill="#1e8e3e" />
+        <text x="375" y="140" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#5f6368" text-anchor="middle">Mar 12</text>
+
+        <rect x="430" y="102" width="50" height="18" fill="#1e8e3e" rx="4"/>
+        <rect x="430" y="108" width="50" height="12" fill="#1e8e3e" />
+        <text x="455" y="140" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#5f6368" text-anchor="middle">Mar 13</text>
+
+        <rect x="510" y="96" width="50" height="24" fill="#1e8e3e" rx="4"/>
+        <rect x="510" y="108" width="50" height="12" fill="#1e8e3e" />
+        <text x="535" y="140" font-family="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#5f6368" text-anchor="middle">Mar 14</text>
+      </g>
+    </g>
+  </g>
+</svg>
