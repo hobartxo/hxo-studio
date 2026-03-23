@@ -8,3 +8,19 @@ document.querySelectorAll('.project-card[data-href]').forEach(card => {
     window.open(card.dataset.href, '_blank', 'noreferrer');
   });
 });
+
+// Initialize intersection observer for terminal animations
+document.addEventListener('DOMContentLoaded', () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target); // Only play once when scrolled into view
+      }
+    });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll('.terminal-container').forEach(terminal => {
+    observer.observe(terminal);
+  });
+});
